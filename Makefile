@@ -6,14 +6,16 @@
 #    By: pwareepo <pwareepo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/14 15:10:17 by pwareepo          #+#    #+#              #
-#    Updated: 2023/02/11 15:27:52 by pwareepo         ###   ########.fr        #
+#    Updated: 2023/02/11 16:22:23 by pwareepo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
 FLAGS = -Wall -Wextra -Werror
-SRCS = ft_printf.c
+SRCS = ft_printf.c\
+ft_cspdi.c\
+ft_uxX.c
 OBJS =$(SRCS:.c=.o)
 
 all: $(NAME)
